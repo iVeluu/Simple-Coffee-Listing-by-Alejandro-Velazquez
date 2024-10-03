@@ -34,7 +34,7 @@ function App() {
       <div className="max-w-5xl mx-auto translate-y-10  xl:translate-y-52">
         <main className=" relative bg-bgLayout rounded-xl py-20 px-8 overflow-hidden text-center m-4">
           <img
-            src="../src/assets/vector.svg"
+            src="/vector.svg"
             alt="Vector Svg"
             className="absolute top-10 right-[-3.875rem] sm:top-6 sm:left-[48.5%] "
           />

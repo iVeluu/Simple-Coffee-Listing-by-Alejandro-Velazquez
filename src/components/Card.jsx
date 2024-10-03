@@ -29,13 +29,13 @@ export default function Card({ coffee }) {
         <div className="flex text-colorTxt gap-1 justify-between mt-1">
           {coffee.votes === 0 ? (
             <div className="flex items-center text-sm gap-1">
-              <img src="../src/assets/Star.svg" alt="Star Svg" className="" />
+              <img src="/Star.svg" alt="Star Svg" className="" />
               <p className="">No ratings</p>
             </div>
           ) : (
             <div className="flex items-center text-sm gap-1">
               <img
-                src="../src/assets/Star_fill.svg"
+                src="/Star_fill.svg"
                 alt="Star Svg"
                 className=""
               />
